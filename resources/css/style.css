@@ -1,0 +1,43 @@
+.header {
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: solid thin black;
+  padding: 0 30px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+    padding: 0 10px;
+}
+
+.nav span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.content{
+    display:flex;
+}
+
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
